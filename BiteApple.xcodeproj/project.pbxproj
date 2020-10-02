@@ -17,6 +17,7 @@
 		E8FC00832525C25D00B72328 /* BiteAppleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FC00822525C25D00B72328 /* BiteAppleTests.m */; };
 		E8FC008E2525C25D00B72328 /* BiteAppleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FC008D2525C25D00B72328 /* BiteAppleUITests.m */; };
 		E8FC00A42525C62D00B72328 /* ObjcMsgSend.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FC00A32525C62D00B72328 /* ObjcMsgSend.m */; };
+		E8FC00B62526AFF100B72328 /* BADsipatchGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FC00B52526AFF100B72328 /* BADsipatchGroup.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,11 @@
 		E8FC00A22525C62D00B72328 /* ObjcMsgSend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcMsgSend.h; sourceTree = "<group>"; };
 		E8FC00A32525C62D00B72328 /* ObjcMsgSend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcMsgSend.m; sourceTree = "<group>"; };
 		E8FC00AB2525C66F00B72328 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E8FC00B42526AFF100B72328 /* BADsipatchGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BADsipatchGroup.h; sourceTree = "<group>"; };
+		E8FC00B52526AFF100B72328 /* BADsipatchGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BADsipatchGroup.m; sourceTree = "<group>"; };
+		E8FC00BF2526C7CC00B72328 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E8FC00C02526C7D700B72328 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E8FC00C12526C7E400B72328 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +120,10 @@
 				E8FC006A2525C25B00B72328 /* SceneDelegate.m */,
 				E8FC006C2525C25B00B72328 /* ViewController.h */,
 				E8FC006D2525C25B00B72328 /* ViewController.m */,
+				E8FC00BE2526C7B700B72328 /* Category */,
+				E8FC00BD2526C7A200B72328 /* JS */,
 				E8FC00A12525C60600B72328 /* Runtime */,
+				E8FC00B32526AF5600B72328 /* Thread */,
 				E8FC006F2525C25B00B72328 /* Main.storyboard */,
 				E8FC00722525C25D00B72328 /* Assets.xcassets */,
 				E8FC00742525C25D00B72328 /* LaunchScreen.storyboard */,
@@ -150,6 +159,32 @@
 				E8FC00AB2525C66F00B72328 /* README.md */,
 			);
 			path = Runtime;
+			sourceTree = "<group>";
+		};
+		E8FC00B32526AF5600B72328 /* Thread */ = {
+			isa = PBXGroup;
+			children = (
+				E8FC00B42526AFF100B72328 /* BADsipatchGroup.h */,
+				E8FC00B52526AFF100B72328 /* BADsipatchGroup.m */,
+				E8FC00BF2526C7CC00B72328 /* README.md */,
+			);
+			path = Thread;
+			sourceTree = "<group>";
+		};
+		E8FC00BD2526C7A200B72328 /* JS */ = {
+			isa = PBXGroup;
+			children = (
+				E8FC00C02526C7D700B72328 /* README.md */,
+			);
+			path = JS;
+			sourceTree = "<group>";
+		};
+		E8FC00BE2526C7B700B72328 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E8FC00C12526C7E400B72328 /* README.md */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,6 +318,7 @@
 			files = (
 				E8FC006E2525C25B00B72328 /* ViewController.m in Sources */,
 				E8FC00682525C25B00B72328 /* AppDelegate.m in Sources */,
+				E8FC00B62526AFF100B72328 /* BADsipatchGroup.m in Sources */,
 				E8FC00792525C25D00B72328 /* main.m in Sources */,
 				E8FC006B2525C25B00B72328 /* SceneDelegate.m in Sources */,
 				E8FC00A42525C62D00B72328 /* ObjcMsgSend.m in Sources */,
