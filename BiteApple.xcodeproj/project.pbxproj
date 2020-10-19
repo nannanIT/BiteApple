@@ -38,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E8B28D47253D9C7400D9ADC9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E8FC00632525C25B00B72328 /* BiteApple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiteApple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FC00662525C25B00B72328 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E8FC00672525C25B00B72328 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -91,6 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E8B28D46253D9C1C00D9ADC9 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				E8B28D47253D9C7400D9ADC9 /* README.md */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
 		E8FC005A2525C25B00B72328 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +129,7 @@
 				E8FC006A2525C25B00B72328 /* SceneDelegate.m */,
 				E8FC006C2525C25B00B72328 /* ViewController.h */,
 				E8FC006D2525C25B00B72328 /* ViewController.m */,
+				E8B28D46253D9C1C00D9ADC9 /* Notes */,
 				E8FC00BE2526C7B700B72328 /* Category */,
 				E8FC00BD2526C7A200B72328 /* JS */,
 				E8FC00A12525C60600B72328 /* Runtime */,
