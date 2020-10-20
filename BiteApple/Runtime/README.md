@@ -17,6 +17,17 @@ struct objc_object {
 typedef struct objc_object *id;
 #endif
 
+struct objc_class : objc_object {
+    // Class ISA;
+    Class superclass;
+    cache_t cache;             // formerly cache pointer and vtable
+    class_data_bits_t bits;    // class_rw_t * plus custom rr/alloc flags
+
+    class_rw_t *data() const {
+        return bits.data();
+    }
+}
+
 /// An opaque type that represents a method selector.
 typedef struct objc_selector *SEL;
 
@@ -92,17 +103,6 @@ struct protocol_t : objc_object {
     const char **_extendedMethodTypes;
     const char *_demangledName;
     property_list_t *_classProperties;
-}
-
-struct objc_class : objc_object {
-    // Class ISA;
-    Class superclass;
-    cache_t cache;             // formerly cache pointer and vtable
-    class_data_bits_t bits;    // class_rw_t * plus custom rr/alloc flags
-
-    class_rw_t *data() const {
-        return bits.data();
-    }
 }
 
 struct category_t {

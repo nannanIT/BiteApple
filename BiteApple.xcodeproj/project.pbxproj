@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E8B28D47253D9C7400D9ADC9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E8B28D47253D9C7400D9ADC9 /* command.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = command.md; sourceTree = "<group>"; };
 		E8FC00632525C25B00B72328 /* BiteApple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiteApple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FC00662525C25B00B72328 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E8FC00672525C25B00B72328 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 		E8B28D46253D9C1C00D9ADC9 /* Notes */ = {
 			isa = PBXGroup;
 			children = (
-				E8B28D47253D9C7400D9ADC9 /* README.md */,
+				E8B28D47253D9C7400D9ADC9 /* command.md */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
