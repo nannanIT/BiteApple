@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8A17A5C2541B42600F8A4A9 /* BAJSCoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A17A5B2541B42600F8A4A9 /* BAJSCoreViewController.m */; };
 		E8B2902025402A1B00D9ADC9 /* BACrashHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B2901F25402A1B00D9ADC9 /* BACrashHandler.m */; };
 		E8FC00682525C25B00B72328 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FC00672525C25B00B72328 /* AppDelegate.m */; };
 		E8FC006B2525C25B00B72328 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FC006A2525C25B00B72328 /* SceneDelegate.m */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E8A17A5A2541B42600F8A4A9 /* BAJSCoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAJSCoreViewController.h; sourceTree = "<group>"; };
+		E8A17A5B2541B42600F8A4A9 /* BAJSCoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAJSCoreViewController.m; sourceTree = "<group>"; };
 		E8B28D47253D9C7400D9ADC9 /* command.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = command.md; sourceTree = "<group>"; };
 		E8B2901E25402A1B00D9ADC9 /* BACrashHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BACrashHandler.h; sourceTree = "<group>"; };
 		E8B2901F25402A1B00D9ADC9 /* BACrashHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BACrashHandler.m; sourceTree = "<group>"; };
@@ -200,6 +203,8 @@
 			isa = PBXGroup;
 			children = (
 				E8FC00C02526C7D700B72328 /* README.md */,
+				E8A17A5A2541B42600F8A4A9 /* BAJSCoreViewController.h */,
+				E8A17A5B2541B42600F8A4A9 /* BAJSCoreViewController.m */,
 			);
 			path = JS;
 			sourceTree = "<group>";
@@ -344,6 +349,7 @@
 				E8FC006E2525C25B00B72328 /* ViewController.m in Sources */,
 				E8FC00682525C25B00B72328 /* AppDelegate.m in Sources */,
 				E8FC00B62526AFF100B72328 /* BADsipatchGroup.m in Sources */,
+				E8A17A5C2541B42600F8A4A9 /* BAJSCoreViewController.m in Sources */,
 				E8FC00792525C25D00B72328 /* main.m in Sources */,
 				E8FC006B2525C25B00B72328 /* SceneDelegate.m in Sources */,
 				E8B2902025402A1B00D9ADC9 /* BACrashHandler.m in Sources */,
