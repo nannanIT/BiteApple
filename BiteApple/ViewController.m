@@ -7,6 +7,7 @@
 
 #import "ViewController.h"
 #import "ObjcMsgSend.h"
+#import "BAJSCoreViewController.h"
 
 @interface ViewController ()
 
@@ -20,6 +21,13 @@
     ObjcMsgSend *msgSend = [[ObjcMsgSend alloc] init];
     [msgSend hello];
     
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(100, 200, 100, 60)];
+    [btn setTitle:@"dianji" forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(p_jump) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+    
+    /*
     NSArray<NSString *> *symbols = [NSThread callStackSymbols];
     NSLog(@"symbols is %@", symbols);
     
@@ -43,7 +51,12 @@
     }
     
     NSLog(@"Hello worldB!");
+     */
 }
 
+- (void)p_jump {
+    BAJSCoreViewController *vc = [[BAJSCoreViewController alloc] init];
+    [self presentViewController:vc animated:YES completion:nil];
+}
 
 @end
