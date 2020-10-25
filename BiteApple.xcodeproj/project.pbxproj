@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		6B1B24FED8E27E6C3D555732 /* libPods-BiteApple.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38208D9A0F7D5982F7A29FA7 /* libPods-BiteApple.a */; };
+		E87DF2F82545595E004A35DF /* BADeadLock.m in Sources */ = {isa = PBXBuildFile; fileRef = E87DF2F72545595E004A35DF /* BADeadLock.m */; };
+		E87DF2FF254581A3004A35DF /* BALoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E87DF2FE254581A3004A35DF /* BALoader.m */; };
+		E87DF305254581D9004A35DF /* BALoaderChlid.m in Sources */ = {isa = PBXBuildFile; fileRef = E87DF304254581D9004A35DF /* BALoaderChlid.m */; };
+		E87DF30B25458232004A35DF /* BALoader+BACategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E87DF30A25458232004A35DF /* BALoader+BACategory.m */; };
+		E87DF311254582FF004A35DF /* BALoaderChlid+BACategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E87DF310254582FF004A35DF /* BALoaderChlid+BACategory.m */; };
 		E8A17A5C2541B42600F8A4A9 /* BAJSCoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A17A5B2541B42600F8A4A9 /* BAJSCoreViewController.m */; };
 		E8A17A6125428DD800F8A4A9 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = E8A17A6025428DD800F8A4A9 /* index.html */; };
 		E8B2902025402A1B00D9ADC9 /* BACrashHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B2901F25402A1B00D9ADC9 /* BACrashHandler.m */; };
@@ -45,6 +50,18 @@
 		1451670AD7B394428CD5B0F0 /* Pods-BiteApple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiteApple.release.xcconfig"; path = "Target Support Files/Pods-BiteApple/Pods-BiteApple.release.xcconfig"; sourceTree = "<group>"; };
 		38208D9A0F7D5982F7A29FA7 /* libPods-BiteApple.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BiteApple.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		669728858F2DE1DA2E51AB5F /* Pods-BiteApple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiteApple.debug.xcconfig"; path = "Target Support Files/Pods-BiteApple/Pods-BiteApple.debug.xcconfig"; sourceTree = "<group>"; };
+		E87DF2F62545595E004A35DF /* BADeadLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BADeadLock.h; sourceTree = "<group>"; };
+		E87DF2F72545595E004A35DF /* BADeadLock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BADeadLock.m; sourceTree = "<group>"; };
+		E87DF2FD254581A3004A35DF /* BALoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BALoader.h; sourceTree = "<group>"; };
+		E87DF2FE254581A3004A35DF /* BALoader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BALoader.m; sourceTree = "<group>"; };
+		E87DF303254581D9004A35DF /* BALoaderChlid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BALoaderChlid.h; sourceTree = "<group>"; };
+		E87DF304254581D9004A35DF /* BALoaderChlid.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BALoaderChlid.m; sourceTree = "<group>"; };
+		E87DF30925458232004A35DF /* BALoader+BACategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BALoader+BACategory.h"; sourceTree = "<group>"; };
+		E87DF30A25458232004A35DF /* BALoader+BACategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BALoader+BACategory.m"; sourceTree = "<group>"; };
+		E87DF30F254582FF004A35DF /* BALoaderChlid+BACategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BALoaderChlid+BACategory.h"; sourceTree = "<group>"; };
+		E87DF310254582FF004A35DF /* BALoaderChlid+BACategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "BALoaderChlid+BACategory.m"; sourceTree = "<group>"; };
+		E87DF3182545890F004A35DF /* Loader.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Loader.md; sourceTree = "<group>"; };
+		E87DF31A254597FA004A35DF /* ResponderChain.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ResponderChain.md; sourceTree = "<group>"; };
 		E8A17A5A2541B42600F8A4A9 /* BAJSCoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAJSCoreViewController.h; sourceTree = "<group>"; };
 		E8A17A5B2541B42600F8A4A9 /* BAJSCoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAJSCoreViewController.m; sourceTree = "<group>"; };
 		E8A17A6025428DD800F8A4A9 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
@@ -124,6 +141,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E87DF31925459774004A35DF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E87DF31A254597FA004A35DF /* ResponderChain.md */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		E8B28D46253D9C1C00D9ADC9 /* Notes */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +199,7 @@
 				E8FC006A2525C25B00B72328 /* SceneDelegate.m */,
 				E8FC006C2525C25B00B72328 /* ViewController.h */,
 				E8FC006D2525C25B00B72328 /* ViewController.m */,
+				E87DF31925459774004A35DF /* UI */,
 				E8B2901A254029EA00D9ADC9 /* Crash */,
 				E8B28D46253D9C1C00D9ADC9 /* Notes */,
 				E8FC00BE2526C7B700B72328 /* Category */,
@@ -213,6 +239,15 @@
 				E8FC00A22525C62D00B72328 /* ObjcMsgSend.h */,
 				E8FC00A32525C62D00B72328 /* ObjcMsgSend.m */,
 				E8FC00AB2525C66F00B72328 /* README.md */,
+				E87DF2FD254581A3004A35DF /* BALoader.h */,
+				E87DF2FE254581A3004A35DF /* BALoader.m */,
+				E87DF303254581D9004A35DF /* BALoaderChlid.h */,
+				E87DF304254581D9004A35DF /* BALoaderChlid.m */,
+				E87DF30F254582FF004A35DF /* BALoaderChlid+BACategory.h */,
+				E87DF310254582FF004A35DF /* BALoaderChlid+BACategory.m */,
+				E87DF30925458232004A35DF /* BALoader+BACategory.h */,
+				E87DF30A25458232004A35DF /* BALoader+BACategory.m */,
+				E87DF3182545890F004A35DF /* Loader.md */,
 			);
 			path = Runtime;
 			sourceTree = "<group>";
@@ -223,6 +258,8 @@
 				E8FC00B42526AFF100B72328 /* BADsipatchGroup.h */,
 				E8FC00B52526AFF100B72328 /* BADsipatchGroup.m */,
 				E8FC00BF2526C7CC00B72328 /* README.md */,
+				E87DF2F62545595E004A35DF /* BADeadLock.h */,
+				E87DF2F72545595E004A35DF /* BADeadLock.m */,
 			);
 			path = Thread;
 			sourceTree = "<group>";
@@ -404,12 +441,17 @@
 			files = (
 				E8FC006E2525C25B00B72328 /* ViewController.m in Sources */,
 				E8FC00682525C25B00B72328 /* AppDelegate.m in Sources */,
+				E87DF30B25458232004A35DF /* BALoader+BACategory.m in Sources */,
 				E8FC00B62526AFF100B72328 /* BADsipatchGroup.m in Sources */,
+				E87DF311254582FF004A35DF /* BALoaderChlid+BACategory.m in Sources */,
+				E87DF2FF254581A3004A35DF /* BALoader.m in Sources */,
 				E8A17A5C2541B42600F8A4A9 /* BAJSCoreViewController.m in Sources */,
 				E8FC00792525C25D00B72328 /* main.m in Sources */,
 				E8FC006B2525C25B00B72328 /* SceneDelegate.m in Sources */,
 				E8B2902025402A1B00D9ADC9 /* BACrashHandler.m in Sources */,
+				E87DF2F82545595E004A35DF /* BADeadLock.m in Sources */,
 				E8FC00A42525C62D00B72328 /* ObjcMsgSend.m in Sources */,
+				E87DF305254581D9004A35DF /* BALoaderChlid.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

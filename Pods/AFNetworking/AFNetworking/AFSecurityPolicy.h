@@ -145,10 +145,13 @@ NS_ASSUME_NONNULL_END
 
  `AFSSLPinningModeNone`
  Do not used pinned certificates to validate servers.
+ 不使用本地证书验证服务器
 
  `AFSSLPinningModePublicKey`
  Validate host certificates against public keys of pinned certificates.
+ 使用本地证书里面的公钥验证服务器
 
  `AFSSLPinningModeCertificate`
  Validate host certificates against pinned certificates.
+ 使用本地证书验证服务器
 */

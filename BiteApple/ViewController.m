@@ -8,6 +8,9 @@
 #import "ViewController.h"
 #import "ObjcMsgSend.h"
 #import "BAJSCoreViewController.h"
+#import "BALoader.h"
+#import "BALoaderChlid.h"
+#import "BALoader+BACategory.h"
 
 @interface ViewController ()
 
@@ -26,6 +29,9 @@
     [btn setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(p_jump) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
+    
+    BALoader *loader = [[BALoader alloc] init];
+    BALoaderChlid *loaderChlid = [[BALoaderChlid alloc] init];
     
     /*
     NSArray<NSString *> *symbols = [NSThread callStackSymbols];
