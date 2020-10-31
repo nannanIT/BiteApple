@@ -37,3 +37,9 @@
 }
 
 ```
+
+手势识别
+
+https://www.jianshu.com/p/8ce8e09c19f3
+https://www.cnblogs.com/lxlx1798/articles/9705552.html
+
