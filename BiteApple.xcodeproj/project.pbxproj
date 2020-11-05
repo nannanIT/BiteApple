@@ -21,6 +21,7 @@
 		E8A17A5C2541B42600F8A4A9 /* BAJSCoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A17A5B2541B42600F8A4A9 /* BAJSCoreViewController.m */; };
 		E8A17A6125428DD800F8A4A9 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = E8A17A6025428DD800F8A4A9 /* index.html */; };
 		E8B2902025402A1B00D9ADC9 /* BACrashHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B2901F25402A1B00D9ADC9 /* BACrashHandler.m */; };
+		E8E2BA152554193300CD00AB /* BARunLoop.m in Sources */ = {isa = PBXBuildFile; fileRef = E8E2BA142554193300CD00AB /* BARunLoop.m */; };
 		E8FC00682525C25B00B72328 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FC00672525C25B00B72328 /* AppDelegate.m */; };
 		E8FC006B2525C25B00B72328 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FC006A2525C25B00B72328 /* SceneDelegate.m */; };
 		E8FC006E2525C25B00B72328 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8FC006D2525C25B00B72328 /* ViewController.m */; };
@@ -86,6 +87,9 @@
 		E8B2901E25402A1B00D9ADC9 /* BACrashHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BACrashHandler.h; sourceTree = "<group>"; };
 		E8B2901F25402A1B00D9ADC9 /* BACrashHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BACrashHandler.m; sourceTree = "<group>"; };
 		E8B2902725402EA700D9ADC9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E8E2BA052553F81B00CD00AB /* RunLoop.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RunLoop.md; sourceTree = "<group>"; };
+		E8E2BA132554193300CD00AB /* BARunLoop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BARunLoop.h; sourceTree = "<group>"; };
+		E8E2BA142554193300CD00AB /* BARunLoop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BARunLoop.m; sourceTree = "<group>"; };
 		E8FC00632525C25B00B72328 /* BiteApple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiteApple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FC00662525C25B00B72328 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E8FC00672525C25B00B72328 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -192,6 +196,16 @@
 			path = Crash;
 			sourceTree = "<group>";
 		};
+		E8E2BA042553F80100CD00AB /* RunLoop */ = {
+			isa = PBXGroup;
+			children = (
+				E8E2BA052553F81B00CD00AB /* RunLoop.md */,
+				E8E2BA132554193300CD00AB /* BARunLoop.h */,
+				E8E2BA142554193300CD00AB /* BARunLoop.m */,
+			);
+			path = RunLoop;
+			sourceTree = "<group>";
+		};
 		E8FC005A2525C25B00B72328 = {
 			isa = PBXGroup;
 			children = (
@@ -223,6 +237,7 @@
 				E8FC006A2525C25B00B72328 /* SceneDelegate.m */,
 				E8FC006C2525C25B00B72328 /* ViewController.h */,
 				E8FC006D2525C25B00B72328 /* ViewController.m */,
+				E8E2BA042553F80100CD00AB /* RunLoop */,
 				E87DF31925459774004A35DF /* UI */,
 				E8B2901A254029EA00D9ADC9 /* Crash */,
 				E8B28D46253D9C1C00D9ADC9 /* Notes */,
@@ -482,6 +497,7 @@
 				E8FC006B2525C25B00B72328 /* SceneDelegate.m in Sources */,
 				E8B2902025402A1B00D9ADC9 /* BACrashHandler.m in Sources */,
 				E87DF2F82545595E004A35DF /* BADeadLock.m in Sources */,
+				E8E2BA152554193300CD00AB /* BARunLoop.m in Sources */,
 				E8FC00A42525C62D00B72328 /* ObjcMsgSend.m in Sources */,
 				E87DF305254581D9004A35DF /* BALoaderChlid.m in Sources */,
 			);
