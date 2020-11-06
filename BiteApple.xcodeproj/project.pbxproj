@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		617BB68C2555092400393D4D /* BAAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 617BB68B2555092400393D4D /* BAAnimation.m */; };
+		617BB6962555203400393D4D /* BAKVOModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 617BB6952555203400393D4D /* BAKVOModel.m */; };
+		617BB6A02555246000393D4D /* BACalculateTwoNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 617BB69F2555246000393D4D /* BACalculateTwoNumber.m */; };
 		6B1B24FED8E27E6C3D555732 /* libPods-BiteApple.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38208D9A0F7D5982F7A29FA7 /* libPods-BiteApple.a */; };
 		E82B1A4E254670460075A141 /* QNChannelGuideHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = E82B1A4D254670460075A141 /* QNChannelGuideHeadView.m */; };
 		E82B1B682547BA3A0075A141 /* BAThread.m in Sources */ = {isa = PBXBuildFile; fileRef = E82B1B672547BA3A0075A141 /* BAThread.m */; };
@@ -55,6 +58,12 @@
 /* Begin PBXFileReference section */
 		1451670AD7B394428CD5B0F0 /* Pods-BiteApple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiteApple.release.xcconfig"; path = "Target Support Files/Pods-BiteApple/Pods-BiteApple.release.xcconfig"; sourceTree = "<group>"; };
 		38208D9A0F7D5982F7A29FA7 /* libPods-BiteApple.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BiteApple.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		617BB68A2555092400393D4D /* BAAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAAnimation.h; sourceTree = "<group>"; };
+		617BB68B2555092400393D4D /* BAAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAAnimation.m; sourceTree = "<group>"; };
+		617BB6942555203400393D4D /* BAKVOModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAKVOModel.h; sourceTree = "<group>"; };
+		617BB6952555203400393D4D /* BAKVOModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAKVOModel.m; sourceTree = "<group>"; };
+		617BB69E2555246000393D4D /* BACalculateTwoNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BACalculateTwoNumber.h; sourceTree = "<group>"; };
+		617BB69F2555246000393D4D /* BACalculateTwoNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BACalculateTwoNumber.m; sourceTree = "<group>"; };
 		669728858F2DE1DA2E51AB5F /* Pods-BiteApple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiteApple.debug.xcconfig"; path = "Target Support Files/Pods-BiteApple/Pods-BiteApple.debug.xcconfig"; sourceTree = "<group>"; };
 		E82B1A4C254670460075A141 /* QNChannelGuideHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QNChannelGuideHeadView.h; sourceTree = "<group>"; };
 		E82B1A4D254670460075A141 /* QNChannelGuideHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QNChannelGuideHeadView.m; sourceTree = "<group>"; };
@@ -153,6 +162,33 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		617BB6892555070000393D4D /* Anim */ = {
+			isa = PBXGroup;
+			children = (
+				617BB68A2555092400393D4D /* BAAnimation.h */,
+				617BB68B2555092400393D4D /* BAAnimation.m */,
+			);
+			path = Anim;
+			sourceTree = "<group>";
+		};
+		617BB6932555201F00393D4D /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				617BB6942555203400393D4D /* BAKVOModel.h */,
+				617BB6952555203400393D4D /* BAKVOModel.m */,
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
+		617BB69D2555243B00393D4D /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				617BB69E2555246000393D4D /* BACalculateTwoNumber.h */,
+				617BB69F2555246000393D4D /* BACalculateTwoNumber.m */,
+			);
+			path = Block;
+			sourceTree = "<group>";
+		};
 		6301E2C44F17855C9F028439 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -237,6 +273,9 @@
 				E8FC006A2525C25B00B72328 /* SceneDelegate.m */,
 				E8FC006C2525C25B00B72328 /* ViewController.h */,
 				E8FC006D2525C25B00B72328 /* ViewController.m */,
+				617BB69D2555243B00393D4D /* Block */,
+				617BB6932555201F00393D4D /* KVO */,
+				617BB6892555070000393D4D /* Anim */,
 				E8E2BA042553F80100CD00AB /* RunLoop */,
 				E87DF31925459774004A35DF /* UI */,
 				E8B2901A254029EA00D9ADC9 /* Crash */,
@@ -491,7 +530,9 @@
 				E87DF311254582FF004A35DF /* BALoaderChlid+BACategory.m in Sources */,
 				E87DF2FF254581A3004A35DF /* BALoader.m in Sources */,
 				E8A17A5C2541B42600F8A4A9 /* BAJSCoreViewController.m in Sources */,
+				617BB6962555203400393D4D /* BAKVOModel.m in Sources */,
 				E82B1B682547BA3A0075A141 /* BAThread.m in Sources */,
+				617BB68C2555092400393D4D /* BAAnimation.m in Sources */,
 				E8FC00792525C25D00B72328 /* main.m in Sources */,
 				E82B1D3F254ABD760075A141 /* BAResponseChainView.m in Sources */,
 				E8FC006B2525C25B00B72328 /* SceneDelegate.m in Sources */,
@@ -500,6 +541,7 @@
 				E8E2BA152554193300CD00AB /* BARunLoop.m in Sources */,
 				E8FC00A42525C62D00B72328 /* ObjcMsgSend.m in Sources */,
 				E87DF305254581D9004A35DF /* BALoaderChlid.m in Sources */,
+				617BB6A02555246000393D4D /* BACalculateTwoNumber.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
