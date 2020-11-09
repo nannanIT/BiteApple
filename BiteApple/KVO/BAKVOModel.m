@@ -39,6 +39,7 @@ static NSArray *BAKVOModelObservedKeyPaths() {
                       context:BAKVOModelObserverContext];
         }
     }
+    return self;
 }
 
 - (void)dealloc {

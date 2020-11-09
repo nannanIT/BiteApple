@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, assign) BOOL enabled;
 @property(nonatomic, copy) NSString *name;
 @property(nonatomic, copy) NSString *psw;
-@property(nonatomic, copy) NSUInteger number;
+@property(nonatomic, assign) NSUInteger number;
 
 @end
 
