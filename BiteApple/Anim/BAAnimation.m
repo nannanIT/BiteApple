@@ -73,4 +73,20 @@ static CGFloat const kQNAnimWaitTime = 0.41f;
     [shapeLayer addAnimation:group forKey:nil];
 }
 
+- (void)waveAnim {
+    CABasicAnimation *waveAAnimation = [CABasicAnimation animationWithKeyPath:@"position"];
+    waveAAnimation.fromValue = [NSValue valueWithCGPoint:CGPointMake(100, 100)];
+    waveAAnimation.toValue = [NSValue valueWithCGPoint:CGPointMake(0, 0)];
+    waveAAnimation.repeatCount = NSIntegerMax;
+    waveAAnimation.duration = 2.f;
+    
+    CAKeyframeAnimation *opacityAnimation = [CAKeyframeAnimation animationWithKeyPath:@"opacity"];
+    opacityAnimation.values = @[@1, @1, @0.9, @0.8, @(0.7), @(0.5), @(0)];
+    opacityAnimation.keyTimes = @[@0, @(1 / 6.f), @(2 / 6.f),@(3 / 6.f),@(4 / 6.f),@(5 / 6.f),@1];
+    opacityAnimation.duration = 2.f;
+    opacityAnimation.repeatCount = NSIntegerMax;
+    
+    // https://www.jianshu.com/p/bdf492023feb
+}
+
 @end
