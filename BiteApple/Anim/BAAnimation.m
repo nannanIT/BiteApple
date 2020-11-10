@@ -89,4 +89,56 @@ static CGFloat const kQNAnimWaitTime = 0.41f;
     // https://www.jianshu.com/p/bdf492023feb
 }
 
+/*
+ 
+ - (instancetype)initWithFrame:(CGRect)frame lineWidth:(CGFloat)lineWidth {
+     if (self = [super initWithFrame:frame]) {
+         _lineWidth = lineWidth;
+         float centerX = self.bounds.size.width / 2.0;
+         float centerY = self.bounds.size.height / 2.0;
+         //半径
+         float radius = (self.bounds.size.width - _lineWidth) / 2.0;
+         
+         //创建贝塞尔路径
+         UIBezierPath *path = [UIBezierPath bezierPathWithArcCenter:CGPointMake(centerX, centerY)
+                                                             radius:radius
+                                                         startAngle:(-0.5f * M_PI)
+                                                           endAngle:1.5f * M_PI
+                                                          clockwise:YES];
+         
+         //添加背景圆环
+         
+         CAShapeLayer *backLayer = [CAShapeLayer layer];
+         backLayer.frame = self.bounds;
+         backLayer.fillColor = [UIColor clearColor].CGColor;
+         backLayer.qn_strokeColorPicker = QNColorPickerWithColor([CUtil colorWithRGB:0xe36d5f alpha:0.1], [CUtil colorWithRGB:0xcc3136 alpha:0.2]);
+         backLayer.lineWidth = _lineWidth;
+         backLayer.path = [path CGPath];
+         backLayer.strokeEnd = 1;
+         backLayer.cornerRadius = self.bounds.size.height / 2;
+         [self.layer addSublayer:backLayer];
+         
+         //创建进度layer
+         _progressLayer = [CAShapeLayer layer];
+         _progressLayer.frame = self.bounds;
+         _progressLayer.fillColor =  [[UIColor clearColor] CGColor];
+         //指定path的渲染颜色
+         _progressLayer.qn_strokeColorPicker = QNColorPickerWithColor(HEX(0xf35543), HEX(0xcc3156));
+         _progressLayer.lineCap = kCALineCapRound;
+         _progressLayer.lineWidth = _lineWidth;
+         _progressLayer.path = [path CGPath];
+         _progressLayer.strokeEnd = 0;
+         [self.layer addSublayer:_progressLayer];
+     }
+     return self;
+ }
+
+ - (void)setProgress:(CGFloat)progress {
+     _progress = progress;
+     _progressLayer.strokeEnd = progress;
+     [_progressLayer removeAllAnimations];
+ }
+ 
+ */
+
 @end
