@@ -10,6 +10,7 @@
 		617BB68C2555092400393D4D /* BAAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 617BB68B2555092400393D4D /* BAAnimation.m */; };
 		617BB6962555203400393D4D /* BAKVOModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 617BB6952555203400393D4D /* BAKVOModel.m */; };
 		617BB6A02555246000393D4D /* BACalculateTwoNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 617BB69F2555246000393D4D /* BACalculateTwoNumber.m */; };
+		617BB6B4255AC08500393D4D /* BAScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 617BB6B3255AC08300393D4D /* BAScrollViewController.m */; };
 		6B1B24FED8E27E6C3D555732 /* libPods-BiteApple.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38208D9A0F7D5982F7A29FA7 /* libPods-BiteApple.a */; };
 		E82B1A4E254670460075A141 /* QNChannelGuideHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = E82B1A4D254670460075A141 /* QNChannelGuideHeadView.m */; };
 		E82B1B682547BA3A0075A141 /* BAThread.m in Sources */ = {isa = PBXBuildFile; fileRef = E82B1B672547BA3A0075A141 /* BAThread.m */; };
@@ -64,6 +65,8 @@
 		617BB6952555203400393D4D /* BAKVOModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAKVOModel.m; sourceTree = "<group>"; };
 		617BB69E2555246000393D4D /* BACalculateTwoNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BACalculateTwoNumber.h; sourceTree = "<group>"; };
 		617BB69F2555246000393D4D /* BACalculateTwoNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BACalculateTwoNumber.m; sourceTree = "<group>"; };
+		617BB6B2255AC08300393D4D /* BAScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAScrollViewController.h; sourceTree = "<group>"; };
+		617BB6B3255AC08300393D4D /* BAScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAScrollViewController.m; sourceTree = "<group>"; };
 		669728858F2DE1DA2E51AB5F /* Pods-BiteApple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiteApple.debug.xcconfig"; path = "Target Support Files/Pods-BiteApple/Pods-BiteApple.debug.xcconfig"; sourceTree = "<group>"; };
 		E82B1A4C254670460075A141 /* QNChannelGuideHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QNChannelGuideHeadView.h; sourceTree = "<group>"; };
 		E82B1A4D254670460075A141 /* QNChannelGuideHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QNChannelGuideHeadView.m; sourceTree = "<group>"; };
@@ -209,6 +212,8 @@
 				E82B1D35254A631D0075A141 /* BAMultiPageViewController.m */,
 				E82B1D3D254ABD760075A141 /* BAResponseChainView.h */,
 				E82B1D3E254ABD760075A141 /* BAResponseChainView.m */,
+				617BB6B2255AC08300393D4D /* BAScrollViewController.h */,
+				617BB6B3255AC08300393D4D /* BAScrollViewController.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -523,6 +528,7 @@
 				E82B1A4E254670460075A141 /* QNChannelGuideHeadView.m in Sources */,
 				E82B1D36254A631D0075A141 /* BAMultiPageViewController.m in Sources */,
 				E8FC006E2525C25B00B72328 /* ViewController.m in Sources */,
+				617BB6B4255AC08500393D4D /* BAScrollViewController.m in Sources */,
 				E82B1D30254A62040075A141 /* BAMultiPageView.m in Sources */,
 				E8FC00682525C25B00B72328 /* AppDelegate.m in Sources */,
 				E87DF30B25458232004A35DF /* BALoader+BACategory.m in Sources */,

@@ -141,4 +141,27 @@ static CGFloat const kQNAnimWaitTime = 0.41f;
  
  */
 
+- (void)useTransform {
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    view.transform = CGAffineTransformMakeTranslation(20, 0);
+    view.transform = CGAffineTransformScale(CGAffineTransformIdentity, 10, 10);
+    
+// https://www.jianshu.com/p/3bc427f0dd56
+}
+
+- (void)trans {
+    
+    [CATransaction begin];
+    [CATransaction setAnimationDuration:1];
+    [CATransaction setAnimationTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseIn]];
+    
+    [UIView animateWithDuration:1 animations:^{
+        
+    } completion:^(BOOL finished) {
+        
+    }];
+    
+    [CATransaction commit];
+}
+
 @end

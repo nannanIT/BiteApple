@@ -13,6 +13,7 @@
 #import "BALoader+BACategory.h"
 #import "BAMultiPageViewController.h"
 #import "BAResponseChainView.h"
+#import "BAScrollViewController.h"
 
 @interface ViewController ()
 @property(nonatomic, strong) UILabel *channelBackView;
@@ -92,7 +93,8 @@
 //    BAJSCoreViewController *vc = [[BAJSCoreViewController alloc] init];
 //    [self presentViewController:vc animated:YES completion:nil];
     
-    BAMultiPageViewController *pageVC = [[BAMultiPageViewController alloc] init];
+//    BAMultiPageViewController *pageVC = [[BAMultiPageViewController alloc] init];
+    BAScrollViewController *pageVC = [[BAScrollViewController alloc] init];
     [self presentViewController:pageVC animated:NO completion:nil];
 }
 
