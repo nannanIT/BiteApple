@@ -17,6 +17,8 @@
 		E82B1D30254A62040075A141 /* BAMultiPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E82B1D2F254A62040075A141 /* BAMultiPageView.m */; };
 		E82B1D36254A631D0075A141 /* BAMultiPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E82B1D35254A631D0075A141 /* BAMultiPageViewController.m */; };
 		E82B1D3F254ABD760075A141 /* BAResponseChainView.m in Sources */ = {isa = PBXBuildFile; fileRef = E82B1D3E254ABD760075A141 /* BAResponseChainView.m */; };
+		E870A6A9255E8C2E00E9A228 /* BAMethodsChain.m in Sources */ = {isa = PBXBuildFile; fileRef = E870A6A8255E8C2E00E9A228 /* BAMethodsChain.m */; };
+		E870A6B2255FE05200E9A228 /* BAMethodsChainChlid.m in Sources */ = {isa = PBXBuildFile; fileRef = E870A6B1255FE05200E9A228 /* BAMethodsChainChlid.m */; };
 		E87DF2F82545595E004A35DF /* BADeadLock.m in Sources */ = {isa = PBXBuildFile; fileRef = E87DF2F72545595E004A35DF /* BADeadLock.m */; };
 		E87DF2FF254581A3004A35DF /* BALoader.m in Sources */ = {isa = PBXBuildFile; fileRef = E87DF2FE254581A3004A35DF /* BALoader.m */; };
 		E87DF305254581D9004A35DF /* BALoaderChlid.m in Sources */ = {isa = PBXBuildFile; fileRef = E87DF304254581D9004A35DF /* BALoaderChlid.m */; };
@@ -79,6 +81,12 @@
 		E82B1D3D254ABD760075A141 /* BAResponseChainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAResponseChainView.h; sourceTree = "<group>"; };
 		E82B1D3E254ABD760075A141 /* BAResponseChainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAResponseChainView.m; sourceTree = "<group>"; };
 		E82B204C254D8FA70075A141 /* Block.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Block.md; sourceTree = "<group>"; };
+		E870A69F255D5E7700E9A228 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E870A6A1255D66B700E9A228 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E870A6A7255E8C2E00E9A228 /* BAMethodsChain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAMethodsChain.h; sourceTree = "<group>"; };
+		E870A6A8255E8C2E00E9A228 /* BAMethodsChain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAMethodsChain.m; sourceTree = "<group>"; };
+		E870A6B0255FE05200E9A228 /* BAMethodsChainChlid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAMethodsChainChlid.h; sourceTree = "<group>"; };
+		E870A6B1255FE05200E9A228 /* BAMethodsChainChlid.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAMethodsChainChlid.m; sourceTree = "<group>"; };
 		E87DF2F62545595E004A35DF /* BADeadLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BADeadLock.h; sourceTree = "<group>"; };
 		E87DF2F72545595E004A35DF /* BADeadLock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BADeadLock.m; sourceTree = "<group>"; };
 		E87DF2FD254581A3004A35DF /* BALoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BALoader.h; sourceTree = "<group>"; };
@@ -200,6 +208,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E870A69E255D5E6400E9A228 /* NStimer */ = {
+			isa = PBXGroup;
+			children = (
+				E870A69F255D5E7700E9A228 /* README.md */,
+			);
+			path = NStimer;
+			sourceTree = "<group>";
+		};
+		E870A6A0255D66A300E9A228 /* Methods */ = {
+			isa = PBXGroup;
+			children = (
+				E870A6A1255D66B700E9A228 /* README.md */,
+				E870A6A7255E8C2E00E9A228 /* BAMethodsChain.h */,
+				E870A6A8255E8C2E00E9A228 /* BAMethodsChain.m */,
+				E870A6B0255FE05200E9A228 /* BAMethodsChainChlid.h */,
+				E870A6B1255FE05200E9A228 /* BAMethodsChainChlid.m */,
+			);
+			path = Methods;
+			sourceTree = "<group>";
+		};
 		E87DF31925459774004A35DF /* UI */ = {
 			isa = PBXGroup;
 			children = (
@@ -278,6 +306,8 @@
 				E8FC006A2525C25B00B72328 /* SceneDelegate.m */,
 				E8FC006C2525C25B00B72328 /* ViewController.h */,
 				E8FC006D2525C25B00B72328 /* ViewController.m */,
+				E870A6A0255D66A300E9A228 /* Methods */,
+				E870A69E255D5E6400E9A228 /* NStimer */,
 				617BB69D2555243B00393D4D /* Block */,
 				617BB6932555201F00393D4D /* KVO */,
 				617BB6892555070000393D4D /* Anim */,
@@ -546,8 +576,10 @@
 				E87DF2F82545595E004A35DF /* BADeadLock.m in Sources */,
 				E8E2BA152554193300CD00AB /* BARunLoop.m in Sources */,
 				E8FC00A42525C62D00B72328 /* ObjcMsgSend.m in Sources */,
+				E870A6A9255E8C2E00E9A228 /* BAMethodsChain.m in Sources */,
 				E87DF305254581D9004A35DF /* BALoaderChlid.m in Sources */,
 				617BB6A02555246000393D4D /* BACalculateTwoNumber.m in Sources */,
+				E870A6B2255FE05200E9A228 /* BAMethodsChainChlid.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,7 @@
 
 #import "BAScrollViewController.h"
 
-@interface BAScrollViewController ()
+@interface BAScrollViewController ()<UIScrollViewDelegate>
 
 @property(nonatomic, strong) UIView *bgViewA;
 @property(nonatomic, strong) UIView *bgViewB;
@@ -22,20 +22,29 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
+    UIScrollView *bgView = [[UIScrollView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:bgView];
+    bgView.contentSize = CGSizeMake(self.view.frame.size.width, 0);
+    bgView.delegate = self;
+    
     CGFloat width = self.view.frame.size.width;
     CGFloat itemWidth = width - 20;
     
     self.bgViewB = [[UIView alloc] initWithFrame:CGRectMake(10, 200, itemWidth, 300)];
     self.bgViewB.backgroundColor = [UIColor purpleColor];
     self.bgViewB.alpha = 0.f;
-    [self.view addSubview:self.bgViewB];
+    [bgView addSubview:self.bgViewB];
     
     self.bgViewA = [[UIView alloc] initWithFrame:CGRectMake(10, 200, itemWidth, 300)];
     self.bgViewA.backgroundColor = [UIColor orangeColor];
-    [self.view addSubview:self.bgViewA];
+    [bgView addSubview:self.bgViewA];
     
     UIPanGestureRecognizer *panGes = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(p_handleGesture:)];
-    [self.view addGestureRecognizer:panGes];
+    [bgView addGestureRecognizer:panGes];
+}
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    [self p_handleGesture:scrollView.panGestureRecognizer];
 }
 
 - (void)p_handleGesture:(UIPanGestureRecognizer *)ges {

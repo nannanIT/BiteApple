@@ -14,6 +14,8 @@
 #import "BAMultiPageViewController.h"
 #import "BAResponseChainView.h"
 #import "BAScrollViewController.h"
+#import "BAMethodsChain.h"
+#import "BAMethodsChainChlid.h"
 
 @interface ViewController ()
 @property(nonatomic, strong) UILabel *channelBackView;
@@ -44,6 +46,12 @@
     UITapGestureRecognizer *ges = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(p_chainViewClick)];
     [self.chainView addGestureRecognizer:ges];
     
+    BAMethodsChain *methodsChain = [[BAMethodsChain alloc] init];
+//    [((id)(methodsChain)) hello];
+    [methodsChain test];
+    BAMethodsChainChlid *methodsChainChlid = [[BAMethodsChainChlid alloc] init];
+    [methodsChainChlid test];
+    
     
     /*
     NSArray<NSString *> *symbols = [NSThread callStackSymbols];
@@ -70,6 +78,10 @@
     
     NSLog(@"Hello worldB!");
      */
+}
+
+- (void)hello {
+    
 }
 
 - (void)p_chainViewClick {
