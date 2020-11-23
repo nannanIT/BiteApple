@@ -81,6 +81,7 @@
 		E82B1D3D254ABD760075A141 /* BAResponseChainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAResponseChainView.h; sourceTree = "<group>"; };
 		E82B1D3E254ABD760075A141 /* BAResponseChainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAResponseChainView.m; sourceTree = "<group>"; };
 		E82B204C254D8FA70075A141 /* Block.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Block.md; sourceTree = "<group>"; };
+		E84150E72569125100A47329 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E870A69F255D5E7700E9A228 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E870A6A1255D66B700E9A228 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E870A6A7255E8C2E00E9A228 /* BAMethodsChain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAMethodsChain.h; sourceTree = "<group>"; };
@@ -208,6 +209,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E84150E62569123A00A47329 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				E84150E72569125100A47329 /* README.md */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
 		E870A69E255D5E6400E9A228 /* NStimer */ = {
 			isa = PBXGroup;
 			children = (
@@ -306,6 +315,7 @@
 				E8FC006A2525C25B00B72328 /* SceneDelegate.m */,
 				E8FC006C2525C25B00B72328 /* ViewController.h */,
 				E8FC006D2525C25B00B72328 /* ViewController.m */,
+				E84150E62569123A00A47329 /* Swift */,
 				E870A6A0255D66A300E9A228 /* Methods */,
 				E870A69E255D5E6400E9A228 /* NStimer */,
 				617BB69D2555243B00393D4D /* Block */,

@@ -107,7 +107,7 @@
     
 //    BAMultiPageViewController *pageVC = [[BAMultiPageViewController alloc] init];
     BAScrollViewController *pageVC = [[BAScrollViewController alloc] init];
-    [self presentViewController:pageVC animated:NO completion:nil];
+    [self presentViewController:pageVC animated:YES completion:nil];
 }
 
 @end

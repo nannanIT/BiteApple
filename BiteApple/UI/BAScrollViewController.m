@@ -47,6 +47,10 @@
     [self p_handleGesture:scrollView.panGestureRecognizer];
 }
 
+- (BOOL)prefersStatusBarHidden {
+    return NO;
+}
+
 - (void)p_handleGesture:(UIPanGestureRecognizer *)ges {
     NSLog(@"");
     static NSInteger flag = 1;

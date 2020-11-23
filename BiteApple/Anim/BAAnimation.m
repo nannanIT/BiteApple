@@ -164,4 +164,9 @@ static CGFloat const kQNAnimWaitTime = 0.41f;
     [CATransaction commit];
 }
 
+// CADisplayLink & CAShapeLayer
+// http://www.cocoachina.com/articles/18252
+// iOS 渲染流程
+// https://www.jianshu.com/p/2eab8599517b
+
 @end
