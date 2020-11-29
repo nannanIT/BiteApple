@@ -10,3 +10,6 @@
 不剥夺条件：进程已经获得的资源在没有使用完之前，不能强行剥夺。
 循环等待条件：若干进程之间形成一种头尾相接的循环等待资源关系。
 
+
+https://tclementdev.com/posts/what_went_wrong_with_the_libdispatch.html
+

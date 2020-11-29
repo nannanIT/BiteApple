@@ -23,6 +23,14 @@
  objc_msgSend       消息转发c语言方法
  */
 
+/**
+ self 是类的隐藏的参数，指向当前当前调用方法的类，另一个隐藏参数是 _cmd，代表当前类方法的 selector。这里只关注这个 self。
+
+ super 是个啥? super 并不是隐藏的参数，它只是一个“编译器指示符”，它和 self 指向的是相同的消息接收者，拿上面的代码为例，不论是用 [self setName] 还是 [super setName]，接收“setName”这个消息的接收者都是 PersonMe* me 这个对象。不同的是，super 告诉编译器，当调用 setName 的方法时，要去调用父类的方法，而不是本类里的。
+
+ 当使用 self 调用方法时，会从当前类的方法列表中开始找，如果没有，就从父类中再找;而当使用 super 时，则从父类的方法列表中开始找。然后调用父类的这个方法。
+ */
+
 void hellob(id self, SEL _cmd) {
     NSLog(@"helloa");
 }
@@ -59,7 +67,9 @@ void hellob(id self, SEL _cmd) {
     method_getImplementation(method);
     class_getMethodImplementation([self class], @selector(helloWithMsg:));
     class_getMethodImplementation_stret([self class], @selector(helloWithMsg:));
+    
     objc_msgSend(self, @selector(helloa));
+    objc_msgSend(self, @selector(helloWithMsg:), @"hello");
 //    class_replaceMethod(, , , )
 //    method_exchangeImplementations(m1, m2);
 }

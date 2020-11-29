@@ -168,5 +168,7 @@ static CGFloat const kQNAnimWaitTime = 0.41f;
 // http://www.cocoachina.com/articles/18252
 // iOS 渲染流程
 // https://www.jianshu.com/p/2eab8599517b
+// iOS图像处理之Core Graphics和OpenGL ES小析
+// https://www.jianshu.com/p/f66a7ca326dd?nomobile=yes
 
 @end
