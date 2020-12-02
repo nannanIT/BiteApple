@@ -25,6 +25,8 @@
 		E87DF30B25458232004A35DF /* BALoader+BACategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E87DF30A25458232004A35DF /* BALoader+BACategory.m */; };
 		E87DF311254582FF004A35DF /* BALoaderChlid+BACategory.m in Sources */ = {isa = PBXBuildFile; fileRef = E87DF310254582FF004A35DF /* BALoaderChlid+BACategory.m */; };
 		E891C86E25735C300025398B /* BADrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = E891C86D25735C300025398B /* BADrawView.m */; };
+		E891C8882574A1E60025398B /* BAAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = E891C8872574A1E60025398B /* BAAlbum.m */; };
+		E89E83ED25773ECC006A46F7 /* BADate.m in Sources */ = {isa = PBXBuildFile; fileRef = E89E83EC25773ECC006A46F7 /* BADate.m */; };
 		E8A17A5C2541B42600F8A4A9 /* BAJSCoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A17A5B2541B42600F8A4A9 /* BAJSCoreViewController.m */; };
 		E8A17A6125428DD800F8A4A9 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = E8A17A6025428DD800F8A4A9 /* index.html */; };
 		E8B2902025402A1B00D9ADC9 /* BACrashHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B2901F25402A1B00D9ADC9 /* BACrashHandler.m */; };
@@ -103,6 +105,10 @@
 		E87DF31A254597FA004A35DF /* ResponderChain.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ResponderChain.md; sourceTree = "<group>"; };
 		E891C86C25735C300025398B /* BADrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BADrawView.h; sourceTree = "<group>"; };
 		E891C86D25735C300025398B /* BADrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BADrawView.m; sourceTree = "<group>"; };
+		E891C8862574A1E60025398B /* BAAlbum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAAlbum.h; sourceTree = "<group>"; };
+		E891C8872574A1E60025398B /* BAAlbum.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAAlbum.m; sourceTree = "<group>"; };
+		E89E83EB25773ECC006A46F7 /* BADate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BADate.h; sourceTree = "<group>"; };
+		E89E83EC25773ECC006A46F7 /* BADate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BADate.m; sourceTree = "<group>"; };
 		E8A17A5A2541B42600F8A4A9 /* BAJSCoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAJSCoreViewController.h; sourceTree = "<group>"; };
 		E8A17A5B2541B42600F8A4A9 /* BAJSCoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAJSCoreViewController.m; sourceTree = "<group>"; };
 		E8A17A6025428DD800F8A4A9 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
@@ -267,6 +273,24 @@
 			path = UIViewLayer;
 			sourceTree = "<group>";
 		};
+		E891C8852574A1C00025398B /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				E891C8862574A1E60025398B /* BAAlbum.h */,
+				E891C8872574A1E60025398B /* BAAlbum.m */,
+			);
+			path = Album;
+			sourceTree = "<group>";
+		};
+		E89E83EA25773EB3006A46F7 /* Time */ = {
+			isa = PBXGroup;
+			children = (
+				E89E83EB25773ECC006A46F7 /* BADate.h */,
+				E89E83EC25773ECC006A46F7 /* BADate.m */,
+			);
+			path = Time;
+			sourceTree = "<group>";
+		};
 		E8B28D46253D9C1C00D9ADC9 /* Notes */ = {
 			isa = PBXGroup;
 			children = (
@@ -327,6 +351,8 @@
 				E8FC006A2525C25B00B72328 /* SceneDelegate.m */,
 				E8FC006C2525C25B00B72328 /* ViewController.h */,
 				E8FC006D2525C25B00B72328 /* ViewController.m */,
+				E89E83EA25773EB3006A46F7 /* Time */,
+				E891C8852574A1C00025398B /* Album */,
 				E891C86B25735C050025398B /* UIViewLayer */,
 				E84150E62569123A00A47329 /* Swift */,
 				E870A6A0255D66A300E9A228 /* Methods */,
@@ -578,6 +604,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E89E83ED25773ECC006A46F7 /* BADate.m in Sources */,
 				E82B1A4E254670460075A141 /* QNChannelGuideHeadView.m in Sources */,
 				E82B1D36254A631D0075A141 /* BAMultiPageViewController.m in Sources */,
 				E8FC006E2525C25B00B72328 /* ViewController.m in Sources */,
@@ -601,6 +628,7 @@
 				E8E2BA152554193300CD00AB /* BARunLoop.m in Sources */,
 				E8FC00A42525C62D00B72328 /* ObjcMsgSend.m in Sources */,
 				E870A6A9255E8C2E00E9A228 /* BAMethodsChain.m in Sources */,
+				E891C8882574A1E60025398B /* BAAlbum.m in Sources */,
 				E87DF305254581D9004A35DF /* BALoaderChlid.m in Sources */,
 				617BB6A02555246000393D4D /* BACalculateTwoNumber.m in Sources */,
 				E870A6B2255FE05200E9A228 /* BAMethodsChainChlid.m in Sources */,
