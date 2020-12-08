@@ -17,6 +17,12 @@
 		E82B1D30254A62040075A141 /* BAMultiPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E82B1D2F254A62040075A141 /* BAMultiPageView.m */; };
 		E82B1D36254A631D0075A141 /* BAMultiPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E82B1D35254A631D0075A141 /* BAMultiPageViewController.m */; };
 		E82B1D3F254ABD760075A141 /* BAResponseChainView.m in Sources */ = {isa = PBXBuildFile; fileRef = E82B1D3E254ABD760075A141 /* BAResponseChainView.m */; };
+		E848D890257E22B500F66700 /* BAViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E848D88F257E22B400F66700 /* BAViewModel.m */; };
+		E848D899257E4D0C00F66700 /* BATableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E848D898257E4D0C00F66700 /* BATableViewController.m */; };
+		E848D89F257E4D3400F66700 /* BACellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E848D89E257E4D3400F66700 /* BACellModel.m */; };
+		E848D8A5257E4D4800F66700 /* BAItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E848D8A4257E4D4800F66700 /* BAItemModel.m */; };
+		E848D8AB257E4FC000F66700 /* BATableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E848D8AA257E4FC000F66700 /* BATableViewCell.m */; };
+		E865634B257A35E90033F821 /* BAVideoPlay.m in Sources */ = {isa = PBXBuildFile; fileRef = E865634A257A35E90033F821 /* BAVideoPlay.m */; };
 		E870A6A9255E8C2E00E9A228 /* BAMethodsChain.m in Sources */ = {isa = PBXBuildFile; fileRef = E870A6A8255E8C2E00E9A228 /* BAMethodsChain.m */; };
 		E870A6B2255FE05200E9A228 /* BAMethodsChainChlid.m in Sources */ = {isa = PBXBuildFile; fileRef = E870A6B1255FE05200E9A228 /* BAMethodsChainChlid.m */; };
 		E87DF2F82545595E004A35DF /* BADeadLock.m in Sources */ = {isa = PBXBuildFile; fileRef = E87DF2F72545595E004A35DF /* BADeadLock.m */; };
@@ -85,6 +91,19 @@
 		E82B1D3E254ABD760075A141 /* BAResponseChainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAResponseChainView.m; sourceTree = "<group>"; };
 		E82B204C254D8FA70075A141 /* Block.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Block.md; sourceTree = "<group>"; };
 		E84150E72569125100A47329 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E848D88D257E218F00F66700 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E848D88E257E22B400F66700 /* BAViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAViewModel.h; sourceTree = "<group>"; };
+		E848D88F257E22B400F66700 /* BAViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAViewModel.m; sourceTree = "<group>"; };
+		E848D897257E4D0C00F66700 /* BATableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BATableViewController.h; sourceTree = "<group>"; };
+		E848D898257E4D0C00F66700 /* BATableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BATableViewController.m; sourceTree = "<group>"; };
+		E848D89D257E4D3400F66700 /* BACellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BACellModel.h; sourceTree = "<group>"; };
+		E848D89E257E4D3400F66700 /* BACellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BACellModel.m; sourceTree = "<group>"; };
+		E848D8A3257E4D4800F66700 /* BAItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAItemModel.h; sourceTree = "<group>"; };
+		E848D8A4257E4D4800F66700 /* BAItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAItemModel.m; sourceTree = "<group>"; };
+		E848D8A9257E4FC000F66700 /* BATableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BATableViewCell.h; sourceTree = "<group>"; };
+		E848D8AA257E4FC000F66700 /* BATableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BATableViewCell.m; sourceTree = "<group>"; };
+		E8656349257A35E90033F821 /* BAVideoPlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAVideoPlay.h; sourceTree = "<group>"; };
+		E865634A257A35E90033F821 /* BAVideoPlay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAVideoPlay.m; sourceTree = "<group>"; };
 		E870A69F255D5E7700E9A228 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E870A6A1255D66B700E9A228 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E870A6A7255E8C2E00E9A228 /* BAMethodsChain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAMethodsChain.h; sourceTree = "<group>"; };
@@ -218,12 +237,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E817FBD3257E213600929264 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				E848D88D257E218F00F66700 /* README.md */,
+				E848D88E257E22B400F66700 /* BAViewModel.h */,
+				E848D88F257E22B400F66700 /* BAViewModel.m */,
+				E848D897257E4D0C00F66700 /* BATableViewController.h */,
+				E848D898257E4D0C00F66700 /* BATableViewController.m */,
+				E848D89D257E4D3400F66700 /* BACellModel.h */,
+				E848D89E257E4D3400F66700 /* BACellModel.m */,
+				E848D8A3257E4D4800F66700 /* BAItemModel.h */,
+				E848D8A4257E4D4800F66700 /* BAItemModel.m */,
+				E848D8A9257E4FC000F66700 /* BATableViewCell.h */,
+				E848D8AA257E4FC000F66700 /* BATableViewCell.m */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
 		E84150E62569123A00A47329 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
 				E84150E72569125100A47329 /* README.md */,
 			);
 			path = Swift;
+			sourceTree = "<group>";
+		};
+		E8656348257A35CE0033F821 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				E8656349257A35E90033F821 /* BAVideoPlay.h */,
+				E865634A257A35E90033F821 /* BAVideoPlay.m */,
+			);
+			path = Video;
 			sourceTree = "<group>";
 		};
 		E870A69E255D5E6400E9A228 /* NStimer */ = {
@@ -351,6 +397,8 @@
 				E8FC006A2525C25B00B72328 /* SceneDelegate.m */,
 				E8FC006C2525C25B00B72328 /* ViewController.h */,
 				E8FC006D2525C25B00B72328 /* ViewController.m */,
+				E817FBD3257E213600929264 /* MVVM */,
+				E8656348257A35CE0033F821 /* Video */,
 				E89E83EA25773EB3006A46F7 /* Time */,
 				E891C8852574A1C00025398B /* Album */,
 				E891C86B25735C050025398B /* UIViewLayer */,
@@ -611,12 +659,16 @@
 				617BB6B4255AC08500393D4D /* BAScrollViewController.m in Sources */,
 				E82B1D30254A62040075A141 /* BAMultiPageView.m in Sources */,
 				E8FC00682525C25B00B72328 /* AppDelegate.m in Sources */,
+				E865634B257A35E90033F821 /* BAVideoPlay.m in Sources */,
 				E87DF30B25458232004A35DF /* BALoader+BACategory.m in Sources */,
 				E8FC00B62526AFF100B72328 /* BADsipatchGroup.m in Sources */,
 				E87DF311254582FF004A35DF /* BALoaderChlid+BACategory.m in Sources */,
+				E848D890257E22B500F66700 /* BAViewModel.m in Sources */,
+				E848D8AB257E4FC000F66700 /* BATableViewCell.m in Sources */,
 				E87DF2FF254581A3004A35DF /* BALoader.m in Sources */,
 				E8A17A5C2541B42600F8A4A9 /* BAJSCoreViewController.m in Sources */,
 				617BB6962555203400393D4D /* BAKVOModel.m in Sources */,
+				E848D8A5257E4D4800F66700 /* BAItemModel.m in Sources */,
 				E82B1B682547BA3A0075A141 /* BAThread.m in Sources */,
 				617BB68C2555092400393D4D /* BAAnimation.m in Sources */,
 				E8FC00792525C25D00B72328 /* main.m in Sources */,
@@ -630,7 +682,9 @@
 				E870A6A9255E8C2E00E9A228 /* BAMethodsChain.m in Sources */,
 				E891C8882574A1E60025398B /* BAAlbum.m in Sources */,
 				E87DF305254581D9004A35DF /* BALoaderChlid.m in Sources */,
+				E848D89F257E4D3400F66700 /* BACellModel.m in Sources */,
 				617BB6A02555246000393D4D /* BACalculateTwoNumber.m in Sources */,
+				E848D899257E4D0C00F66700 /* BATableViewController.m in Sources */,
 				E870A6B2255FE05200E9A228 /* BAMethodsChainChlid.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

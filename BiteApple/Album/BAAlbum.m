@@ -60,4 +60,27 @@
 
 @implementation BAAlbum
 
++ (void)mediaAuthorizationStatusAuthorized {
+    PHAuthorizationStatus status = [self mediaAuthorizationStatus];
+    if (status == PHAuthorizationStatusNotDetermined) {
+        [PHPhotoLibrary requestAuthorization:^(PHAuthorizationStatus status) {
+            if (status == PHAuthorizationStatusAuthorized) {
+                
+            } else {
+                
+            }
+        }];
+    } else {
+        if (status == PHAuthorizationStatusAuthorized) {
+            
+        } else {
+            
+        }
+    }
+}
+
++ (PHAuthorizationStatus)mediaAuthorizationStatus {
+    return [PHPhotoLibrary authorizationStatus];
+}
+
 @end
