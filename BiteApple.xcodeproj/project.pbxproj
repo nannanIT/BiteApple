@@ -12,6 +12,23 @@
 		617BB6A02555246000393D4D /* BACalculateTwoNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 617BB69F2555246000393D4D /* BACalculateTwoNumber.m */; };
 		617BB6B4255AC08500393D4D /* BAScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 617BB6B3255AC08300393D4D /* BAScrollViewController.m */; };
 		6B1B24FED8E27E6C3D555732 /* libPods-BiteApple.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38208D9A0F7D5982F7A29FA7 /* libPods-BiteApple.a */; };
+		E811F38B2581F663002B44ED /* dark-20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E811F38A2581F663002B44ED /* dark-20@2x.png */; };
+		E811F39E2581F69A002B44ED /* dark-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E811F38F2581F699002B44ED /* dark-60@3x.png */; };
+		E811F39F2581F69A002B44ED /* dark-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E811F3902581F699002B44ED /* dark-40@3x.png */; };
+		E811F3A02581F69A002B44ED /* star-20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E811F3912581F699002B44ED /* star-20@3x.png */; };
+		E811F3A12581F69A002B44ED /* star-29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E811F3922581F699002B44ED /* star-29@3x.png */; };
+		E811F3A22581F69A002B44ED /* dark-29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E811F3932581F69A002B44ED /* dark-29@3x.png */; };
+		E811F3A32581F69A002B44ED /* star-40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E811F3942581F69A002B44ED /* star-40@3x.png */; };
+		E811F3A42581F69A002B44ED /* dark-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E811F3952581F69A002B44ED /* dark-40@2x.png */; };
+		E811F3A52581F69A002B44ED /* dark-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E811F3962581F69A002B44ED /* dark-60@2x.png */; };
+		E811F3A62581F69A002B44ED /* star-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E811F3972581F69A002B44ED /* star-60@3x.png */; };
+		E811F3A72581F69A002B44ED /* dark-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E811F3982581F69A002B44ED /* dark-29@2x.png */; };
+		E811F3A82581F69A002B44ED /* star-20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E811F3992581F69A002B44ED /* star-20@2x.png */; };
+		E811F3A92581F69A002B44ED /* star-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E811F39A2581F69A002B44ED /* star-40@2x.png */; };
+		E811F3AA2581F69A002B44ED /* dark-20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E811F39B2581F69A002B44ED /* dark-20@3x.png */; };
+		E811F3AB2581F69A002B44ED /* star-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E811F39C2581F69A002B44ED /* star-60@2x.png */; };
+		E811F3AC2581F69A002B44ED /* star-29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E811F39D2581F69A002B44ED /* star-29@2x.png */; };
+		E811F42C25886D99002B44ED /* BASwiftApple.swift in Sources */ = {isa = PBXBuildFile; fileRef = E811F42B25886D99002B44ED /* BASwiftApple.swift */; };
 		E82B1A4E254670460075A141 /* QNChannelGuideHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = E82B1A4D254670460075A141 /* QNChannelGuideHeadView.m */; };
 		E82B1B682547BA3A0075A141 /* BAThread.m in Sources */ = {isa = PBXBuildFile; fileRef = E82B1B672547BA3A0075A141 /* BAThread.m */; };
 		E82B1D30254A62040075A141 /* BAMultiPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E82B1D2F254A62040075A141 /* BAMultiPageView.m */; };
@@ -79,6 +96,24 @@
 		617BB6B2255AC08300393D4D /* BAScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAScrollViewController.h; sourceTree = "<group>"; };
 		617BB6B3255AC08300393D4D /* BAScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BAScrollViewController.m; sourceTree = "<group>"; };
 		669728858F2DE1DA2E51AB5F /* Pods-BiteApple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiteApple.debug.xcconfig"; path = "Target Support Files/Pods-BiteApple/Pods-BiteApple.debug.xcconfig"; sourceTree = "<group>"; };
+		E811F38A2581F663002B44ED /* dark-20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dark-20@2x.png"; sourceTree = "<group>"; };
+		E811F38F2581F699002B44ED /* dark-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dark-60@3x.png"; sourceTree = "<group>"; };
+		E811F3902581F699002B44ED /* dark-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dark-40@3x.png"; sourceTree = "<group>"; };
+		E811F3912581F699002B44ED /* star-20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-20@3x.png"; sourceTree = "<group>"; };
+		E811F3922581F699002B44ED /* star-29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-29@3x.png"; sourceTree = "<group>"; };
+		E811F3932581F69A002B44ED /* dark-29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dark-29@3x.png"; sourceTree = "<group>"; };
+		E811F3942581F69A002B44ED /* star-40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-40@3x.png"; sourceTree = "<group>"; };
+		E811F3952581F69A002B44ED /* dark-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dark-40@2x.png"; sourceTree = "<group>"; };
+		E811F3962581F69A002B44ED /* dark-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dark-60@2x.png"; sourceTree = "<group>"; };
+		E811F3972581F69A002B44ED /* star-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-60@3x.png"; sourceTree = "<group>"; };
+		E811F3982581F69A002B44ED /* dark-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dark-29@2x.png"; sourceTree = "<group>"; };
+		E811F3992581F69A002B44ED /* star-20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-20@2x.png"; sourceTree = "<group>"; };
+		E811F39A2581F69A002B44ED /* star-40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-40@2x.png"; sourceTree = "<group>"; };
+		E811F39B2581F69A002B44ED /* dark-20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dark-20@3x.png"; sourceTree = "<group>"; };
+		E811F39C2581F69A002B44ED /* star-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-60@2x.png"; sourceTree = "<group>"; };
+		E811F39D2581F69A002B44ED /* star-29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-29@2x.png"; sourceTree = "<group>"; };
+		E811F42A25886D98002B44ED /* BiteApple-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BiteApple-Bridging-Header.h"; sourceTree = "<group>"; };
+		E811F42B25886D99002B44ED /* BASwiftApple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BASwiftApple.swift; sourceTree = "<group>"; };
 		E82B1A4C254670460075A141 /* QNChannelGuideHeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QNChannelGuideHeadView.h; sourceTree = "<group>"; };
 		E82B1A4D254670460075A141 /* QNChannelGuideHeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QNChannelGuideHeadView.m; sourceTree = "<group>"; };
 		E82B1B662547BA3A0075A141 /* BAThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BAThread.h; sourceTree = "<group>"; };
@@ -237,6 +272,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E811F3892581F626002B44ED /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				E811F39B2581F69A002B44ED /* dark-20@3x.png */,
+				E811F3982581F69A002B44ED /* dark-29@2x.png */,
+				E811F3932581F69A002B44ED /* dark-29@3x.png */,
+				E811F3952581F69A002B44ED /* dark-40@2x.png */,
+				E811F3902581F699002B44ED /* dark-40@3x.png */,
+				E811F3962581F69A002B44ED /* dark-60@2x.png */,
+				E811F38F2581F699002B44ED /* dark-60@3x.png */,
+				E811F3992581F69A002B44ED /* star-20@2x.png */,
+				E811F3912581F699002B44ED /* star-20@3x.png */,
+				E811F39D2581F69A002B44ED /* star-29@2x.png */,
+				E811F3922581F699002B44ED /* star-29@3x.png */,
+				E811F39A2581F69A002B44ED /* star-40@2x.png */,
+				E811F3942581F69A002B44ED /* star-40@3x.png */,
+				E811F39C2581F69A002B44ED /* star-60@2x.png */,
+				E811F3972581F69A002B44ED /* star-60@3x.png */,
+				E811F38A2581F663002B44ED /* dark-20@2x.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
 		E817FBD3257E213600929264 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
@@ -259,6 +317,8 @@
 			isa = PBXGroup;
 			children = (
 				E84150E72569125100A47329 /* README.md */,
+				E811F42B25886D99002B44ED /* BASwiftApple.swift */,
+				E811F42A25886D98002B44ED /* BiteApple-Bridging-Header.h */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -397,6 +457,7 @@
 				E8FC006A2525C25B00B72328 /* SceneDelegate.m */,
 				E8FC006C2525C25B00B72328 /* ViewController.h */,
 				E8FC006D2525C25B00B72328 /* ViewController.m */,
+				E811F3892581F626002B44ED /* icons */,
 				E817FBD3257E213600929264 /* MVVM */,
 				E8656348257A35CE0033F821 /* Video */,
 				E89E83EA25773EB3006A46F7 /* Time */,
@@ -563,6 +624,7 @@
 				TargetAttributes = {
 					E8FC00622525C25B00B72328 = {
 						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1220;
 					};
 					E8FC007D2525C25D00B72328 = {
 						CreatedOnToolsVersion = 12.0;
@@ -600,9 +662,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8FC00762525C25D00B72328 /* LaunchScreen.storyboard in Resources */,
+				E811F3AA2581F69A002B44ED /* dark-20@3x.png in Resources */,
+				E811F38B2581F663002B44ED /* dark-20@2x.png in Resources */,
+				E811F3A42581F69A002B44ED /* dark-40@2x.png in Resources */,
+				E811F3A52581F69A002B44ED /* dark-60@2x.png in Resources */,
+				E811F3AC2581F69A002B44ED /* star-29@2x.png in Resources */,
+				E811F3A82581F69A002B44ED /* star-20@2x.png in Resources */,
+				E811F3A22581F69A002B44ED /* dark-29@3x.png in Resources */,
+				E811F39F2581F69A002B44ED /* dark-40@3x.png in Resources */,
 				E8A17A6125428DD800F8A4A9 /* index.html in Resources */,
+				E811F3A62581F69A002B44ED /* star-60@3x.png in Resources */,
 				E8FC00732525C25D00B72328 /* Assets.xcassets in Resources */,
+				E811F3A02581F69A002B44ED /* star-20@3x.png in Resources */,
 				E8FC00712525C25B00B72328 /* Main.storyboard in Resources */,
+				E811F39E2581F69A002B44ED /* dark-60@3x.png in Resources */,
+				E811F3A72581F69A002B44ED /* dark-29@2x.png in Resources */,
+				E811F3AB2581F69A002B44ED /* star-60@2x.png in Resources */,
+				E811F3A12581F69A002B44ED /* star-29@3x.png in Resources */,
+				E811F3A32581F69A002B44ED /* star-40@3x.png in Resources */,
+				E811F3A92581F69A002B44ED /* star-40@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -676,6 +754,7 @@
 				E8FC006B2525C25B00B72328 /* SceneDelegate.m in Sources */,
 				E8B2902025402A1B00D9ADC9 /* BACrashHandler.m in Sources */,
 				E87DF2F82545595E004A35DF /* BADeadLock.m in Sources */,
+				E811F42C25886D99002B44ED /* BASwiftApple.swift in Sources */,
 				E891C86E25735C300025398B /* BADrawView.m in Sources */,
 				E8E2BA152554193300CD00AB /* BARunLoop.m in Sources */,
 				E8FC00A42525C62D00B72328 /* ObjcMsgSend.m in Sources */,
@@ -858,6 +937,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BiteApple/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -866,6 +946,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hello.git.BiteApple;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BiteApple/Swift/BiteApple-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -876,6 +959,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BiteApple/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -884,6 +968,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hello.git.BiteApple;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BiteApple/Swift/BiteApple-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -891,6 +977,7 @@
 		E8FC00962525C25D00B72328 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BiteAppleTests/Info.plist;
@@ -910,6 +997,7 @@
 		E8FC00972525C25D00B72328 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BiteAppleTests/Info.plist;
@@ -929,6 +1017,7 @@
 		E8FC00992525C25D00B72328 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BiteAppleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -946,6 +1035,7 @@
 		E8FC009A2525C25D00B72328 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BiteAppleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

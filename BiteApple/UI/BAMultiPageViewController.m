@@ -20,7 +20,7 @@
     [super viewDidLoad];
     
     self.pageView = [[BAMultiPageView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
-    self.pageView.contentSize = CGSizeMake(self.view.frame.size.width, 0);
+    self.pageView.contentSize = CGSizeMake(self.view.frame.size.width, self.view.frame.size.height + 100);
     self.pageView.backgroundColor = UIColor.orangeColor;
     self.pageView.delegate = self;
     self.pageView.scrollEnabled = YES;
@@ -35,6 +35,12 @@
     self.tableView.delegate = self;
     self.tableView.estimatedRowHeight = 0;
     self.tableView.dataSource = self;
+    UIResponder *res = self.view.nextResponder;
+    UIResponder *res1 = self.pageView.nextResponder;
+    UIResponder *res2 = res1.nextResponder;
+    UIResponder *res3 = res.nextResponder;
+    UIResponder *res4 = self.tableView.nextResponder;
+    NSLog(@"");
 }
 
 #pragma mark - UITableViewDelegate

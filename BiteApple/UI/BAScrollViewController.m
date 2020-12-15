@@ -56,14 +56,22 @@
     static NSInteger flag = 1;
     static BOOL animing = NO;
     
+    if (ges.state == UIGestureRecognizerStateEnded) {
+        [UIView animateWithDuration:0.5f animations:^{
+            self.bgViewA.frame = CGRectMake(10, 200, CGRectGetWidth(self.bgViewA.frame), CGRectGetHeight(self.bgViewA.frame));
+        }];
+    }
+    
     if (ges.state == UIGestureRecognizerStateChanged) {
         CGPoint point = [ges translationInView:self.view];
         CGFloat offsetX = fabs(point.x);
         if (offsetX < 50) {
             NSLog(@"too small");
+            self.bgViewA.frame = CGRectMake(10 + point.x, 200 + point.y, CGRectGetWidth(self.bgViewA.frame), CGRectGetHeight(self.bgViewA.frame));
             return;
         }
         if (point.x < 0) {
+            // 左边滑动
             NSLog(@"%@", @(point.x));
             if (!animing) {
                 animing = YES;
