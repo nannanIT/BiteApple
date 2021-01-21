@@ -17,6 +17,7 @@
 #import "BAMethodsChain.h"
 #import "BAMethodsChainChlid.h"
 #import "BiteApple-Swift.h"
+#import "BABrawView.h"
 
 @interface ViewController ()
 @property(nonatomic, strong) UILabel *channelBackView;
@@ -53,7 +54,7 @@
     BAMethodsChainChlid *methodsChainChlid = [[BAMethodsChainChlid alloc] init];
     [methodsChainChlid test];
     
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(10 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
 //        [self setAppIconWithName:@"starimage"];
     });
     
@@ -107,6 +108,9 @@
      指针常量：指针自身是一个常量，关键字 const 出现在 * 右边，表示指针自身不可变，但其指向的地址的内容是可以被修改的。
      在此例中：我们知道，NSString永远是immutable的，也是一个指针常量，所以NSString * const 是有效的，而const NSString * 则是无效的。而使用错误的写法，则无法阻止修改该指针指向的地址，使得本应该是常量的值能被修改，造成了隐患。这是需要注意的一个常见错误。
      */
+    
+    BABrawView *view = [[BABrawView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:view];
 }
 
 - (void)setAppIconWithName:(NSString *)iconName {

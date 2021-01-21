@@ -82,6 +82,7 @@ void hellob(id self, SEL _cmd) {
     NSLog(@"");
 }
 
+// https://blog.csdn.net/yinyignfenlei/article/details/105366819
 + (BOOL)resolveInstanceMethod:(SEL)sel {
     NSLog(@"1 resolveInstanceMethod-%@", NSStringFromSelector(sel));
 //    return [super resolveInstanceMethod:sel];

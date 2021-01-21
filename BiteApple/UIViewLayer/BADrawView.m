@@ -7,6 +7,8 @@
 
 #import "BADrawView.h"
 
+// UIBezierPath 属于UIKit层
+
 @implementation BADrawView
 
 // Only override drawRect: if you perform custom drawing.

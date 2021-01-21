@@ -58,6 +58,9 @@
  https://www.jianshu.com/p/989675debaf1
  */
 
+// iOS 14 - 使用 PHPicker 选择照片和视频
+// https://www.jianshu.com/p/989675debaf1
+
 @implementation BAAlbum
 
 + (void)mediaAuthorizationStatusAuthorized {

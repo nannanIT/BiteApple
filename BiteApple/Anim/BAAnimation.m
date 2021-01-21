@@ -10,6 +10,9 @@
 #import <QuartzCore/CALayer.h>
 #import <UIKit/UIKit.h>
 
+
+// 整体属于CoreAnimation框架
+
 static CGFloat const kQNRadius = 10.f;
 static CGFloat const kQNLineWidth = 1.0;
 static CGFloat const kQNAnimDuration = 1.25f;

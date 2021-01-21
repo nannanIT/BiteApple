@@ -3,4 +3,5 @@ inhibit_all_warnings!
 target 'BiteApple' do
     pod 'AFNetworking'
     pod 'SDWebImage'
+    pod 'ReactiveObjC'
 end

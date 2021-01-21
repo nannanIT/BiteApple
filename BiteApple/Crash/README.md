@@ -1,5 +1,8 @@
 #  exception
 
+多线程crash
+https://www.jianshu.com/p/d6fdbc64db19
+
 ```
 @try
 {

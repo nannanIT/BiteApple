@@ -12,7 +12,7 @@
 /**
  1、fetch && parse（json -> BAItemModels）
  2、BAItemModels -> BACellModels
- 3、实现UITableViewDataSource
+ 3、实现UITableViewDataSource，dataSource可以独立一个adapter，用以数据处理相关的回调等
  4、loadMore/pullDown
  */
 
